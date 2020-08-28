@@ -1,0 +1,41 @@
+.div1 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.div2 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  left: 130px;
+}
+
+.div3 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  bottom: 660px;
+}
+
+.div4 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  bottom: 660px;
+  left: 130px;
+}
+
+.div5 {
+  position: absolute;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  bottom: 721px;
+  left: 70px;
+  z-index: 5;
+}

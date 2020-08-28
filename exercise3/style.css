@@ -1,0 +1,67 @@
+.div1 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.div2 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  left: 130px;
+}
+
+.div3 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  bottom: 710px;
+}
+
+.div4 {
+  position: absolute;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  bottom: 710px;
+  left: 130px;
+}
+
+.div5 {
+  position: absolute;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  bottom: 768px;
+  left: 68px;
+  transform: rotate(45deg);
+  z-index: 5;
+}
+
+.div1::after {
+  position: absolute;
+  content: " ";
+  background-color: white;
+  /* border-right: 2x solid white;
+  border-left: 2x solid white; */
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  left: 80px;
+  top: 81px;
+  z-index: 6;
+}
+
+.div2::after {
+  position: absolute;
+  /* content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Five_Pointed_Star_Solid.svg/260px-Five_Pointed_Star_Solid.svg.png"); */
+  content: "★";
+  height: 60px;
+  width: 60px;
+  left: -18px;
+  top: 98px;
+  z-index: 7;
+}

@@ -1,0 +1,60 @@
+.interior {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.div1 {
+  background-color: red;
+  left: 300px;
+}
+
+.div1::before {
+  position: absolute;
+  background-color: red;
+  content: " ";
+  opacity: 0.4;
+  left: -100px;
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.div1::after {
+  position: absolute;
+  background-color: red;
+  content: " ";
+  opacity: 0.7;
+  left: 100px;
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.div2 {
+  background-color: orange;
+  left: 300px;
+  top: 113px;
+}
+
+.div3 {
+  background-color: yellow;
+  left: 300px;
+  top: 220px;
+}
+
+.div4 {
+  background-color: blue;
+  left: 300px;
+  top: 328px;
+}
+
+.div5 {
+  background-color: plum;
+  left: 300px;
+  top: 436px;
+}
